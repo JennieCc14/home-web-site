@@ -1,0 +1,276 @@
+
+header{
+    display:flex;
+    height: 50px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: #1b1b1b;
+
+}
+.logo_navbar{
+    display: flex;
+    align-items: center;
+}
+.logo-navbar img{
+    height: auto;
+    margin-right: 10px ;
+    align-items: center;
+}
+    body{
+        font-family: "Open Sans";
+
+    }
+    
+    nav  {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #fff;
+        margin: 0 30px;
+        padding: 15px 15px;
+        font-weight: 600;
+        padding-right: 100px;
+        justify-content: space-between;
+        
+}
+
+
+    nav a:hover{
+        background-color:#8ecae6;
+        color: #fff;
+
+    }
+    nav a{
+        font-weight: 600px;
+        padding-right: 100;
+        text-decoration: #000;
+    }
+
+    
+        .container{
+            background-image: url(Imagén_Bienvenida.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding-left: 15px;
+            height: auto;
+        }
+        .text1 {
+            font-family: "open sans";
+            color: #000;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+            
+        }
+        .text1 img{
+            width: 100%;
+            text-align: center;
+            justify-items: center;  
+        }
+
+        .container .text1{
+            align-items: center;
+            text-align: center;
+        }
+
+        .btn{
+            background-color: #2571bc;
+            padding: 14px 40px;
+            font-size: 28px;}
+            button {
+                transition-duration: 0.4s; }
+            
+
+                
+                .container {
+                    position: relative;
+                    width: 100%;
+                    
+                }
+                
+                .container img {
+                    width: 100%;
+                    height: auto;
+                }
+                
+                .container .btn {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    background-color: #2571bc;
+                    color: black ;
+                    font-size: 16px;
+                    padding: 16px 30px;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    text-align: center;
+                }
+                
+                .container .btn:hover {
+                    background-color: #ffb703;
+                    color: white;
+                }
+
+            .button {
+                display: inline-block;
+                border-radius: 4px;
+                background-color:#2571bc;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 16px;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+            
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+            
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+            
+            .button:hover span {
+                padding-right: 25px;
+            }
+            
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+            .izquierda {
+            height: 100%;
+            background-color: #ffb703;
+            padding: 75PX;
+            margin: 5PX;
+            
+
+        }
+        
+        
+            .H1{
+                color: #2571bc;
+                align-items: center;
+                text-align: justify;
+        
+            
+            }
+            .H2{
+                color: #2571bc;
+                align-items: center;
+                text-align: justify;
+                justify-content: center;
+            }
+            .H3{
+                color: #2571bc;
+                align-items: center;
+                text-align: justify;
+            
+            }
+            .logo1 {
+                width: 89px;
+                align-items: center;
+                
+            }
+            .DERECHA {
+                height: auto;
+                background-color: #8ecae6;
+                background-position: center;
+                background-size: cover;
+                width: 50%;
+                height: 100wh;
+                margin: 5px;
+                padding: 75px;
+            }
+            .SECTION1{
+                display: flex;
+            }
+            .logo1{
+                display: flex;
+        
+            }
+            .pie_pagina{
+                background-color: #2571bc;
+                align-items: center;
+            }
+            .logofeet{
+                height: auto;
+                margin: 10px ;
+                align-items: center;
+                padding: 15px;
+            }
+                .sobre_nosotrosimg{
+                    background-size: cover;
+                    background-position: center;
+                    width: 50%;
+                    height: 100wh;
+                    background-color: #2571bc;
+                }
+                
+                
+                
+                
+
+                .textoderecho{
+                    background-color: #2571bc;
+                    
+                    justify-content: left;
+                    height: auto;
+                    padding: 75PX;
+                    margin: 10PX;
+                    width: 50%px;
+                }
+                .section2{
+                    display: flex;
+                    }
+
+                    .button2{
+                            display: inline-block;
+                            padding: 15px 25px;
+                            font-size: 24px;
+                            cursor: pointer;
+                            text-align: center;
+                            text-decoration: none;
+                            outline: none;
+                            color: #2571bc;
+                            background-color: #ffb703;
+                            border: none;
+                            border-radius: 15px;
+                            box-shadow: 0 9px #999;
+                        }
+                        
+                        .button2:hover {background-color: #ea7700}
+                        
+                        .button2:active {
+                        background-color: #ffb703;
+                            box-shadow: 0 5px #8ecae6;
+                            transform: translateY(4px);
+                        }
+                    
+                
+
+
+
+
+                caption{
+                    text-align: center;
+                    color: #000;
+                }
